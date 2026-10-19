@@ -3,36 +3,47 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Super President — $TRUMP</title>
-  <meta name="description" content="Super President $TRUMP combines classic red, white, and blue Americana with the fast-moving culture of crypto memes. Community participation, recognizable branding, and Solana meme tokens." />
-  <meta property="og:title" content="Super President — $TRUMP" />
-  <meta property="og:description" content="Classic red, white, and blue Americana meets the fast-moving culture of Solana meme tokens." />
+  <title>Solya The Cat — $SOLYA</title>
+  <meta name="description" content="Solya is winning hearts across Reddit as a distinguished gentleman—but his iconic pose looks unmistakably like DOGE. $SOLYA on Solana." />
+  <meta property="og:title" content="Solya The Cat — $SOLYA" />
+  <meta property="og:description" content="Solya is winning hearts across Reddit as a distinguished gentleman—but his iconic pose looks unmistakably like DOGE." />
   <meta property="og:image" content="banner.png" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:image" content="banner.png" />
   <link rel="icon" href="logo.png" type="image/png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@500;600&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="grain" aria-hidden="true"></div>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="paw" viewBox="0 0 64 64">
+      <ellipse cx="32" cy="43" rx="14" ry="12" />
+      <ellipse cx="13" cy="27" rx="6" ry="8" transform="rotate(-18 13 27)" />
+      <ellipse cx="25" cy="15" rx="6" ry="8.5" transform="rotate(-6 25 15)" />
+      <ellipse cx="39" cy="15" rx="6" ry="8.5" transform="rotate(6 39 15)" />
+      <ellipse cx="51" cy="27" rx="6" ry="8" transform="rotate(18 51 27)" />
+    </symbol>
+  </svg>
+
+  <div class="scroll-progress" aria-hidden="true"></div>
 
   <header class="site-header">
     <nav class="nav">
       <a href="#top" class="nav-brand">
-        <img src="logo.png" alt="Super President" class="nav-logo" />
-        <span>SUPER PRESIDENT</span>
+        <img src="logo.png" alt="Solya The Cat" class="nav-logo" />
+        <span>SOLYA</span>
       </a>
       <ul class="nav-links">
         <li><a href="#story">Story</a></li>
-        <li><a href="#about">Lore</a></li>
+        <li><a href="#about">Profile</a></li>
         <li><a href="#contract">CA</a></li>
         <li><a href="#tokenomics">Tokenomics</a></li>
         <li><a href="#buy">Buy</a></li>
         <li class="nav-socials">
-          <a href="https://x.com/trumponsol_x" data-twitter target="_blank" rel="noopener noreferrer" aria-label="X">X</a>
+          <a href="#" data-twitter target="_blank" rel="noopener noreferrer" aria-label="X">X</a>
+          <a href="#" data-telegram target="_blank" rel="noopener noreferrer" aria-label="Telegram">TG</a>
         </li>
       </ul>
       <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
@@ -43,95 +54,117 @@
 
   <main>
     <section class="hero" id="top">
-      <img class="hero-image" src="banner.png" alt="Super President before a waving American flag" />
-      <div class="hero-copy">
-        <p class="seal">USA</p>
-        <p class="hero-kicker">Solana meme token</p>
-        <h1>SUPER<br /><span>PRESIDENT</span></h1>
-        <p class="hero-ticker">$TRUMP</p>
-        <p class="hero-bio">Super President $TRUMP combines classic red, white, and blue Americana with the fast-moving culture of crypto memes. The project is designed around community participation, recognizable visual branding, and the playful culture of Solana meme tokens.</p>
-        <ul class="stat-row">
-          <li><strong>RWB</strong><span>Americana</span></li>
-          <li><strong>SOL</strong><span>Solana</span></li>
-          <li><strong>$TRUMP</strong><span>ticker</span></li>
-        </ul>
-        <div class="hero-actions">
-          <a href="https://pump.fun/coin/9rzRfWAFzjkV7HMm36M1ZSh7JUf4S8pw6UeZdPdLpump" data-pumpfun target="_blank" rel="noopener noreferrer" class="btn btn-blood">Buy $TRUMP</a>
-          <a href="#story" class="btn btn-line">The story</a>
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="paw-field" aria-hidden="true"></div>
+
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="hero-badge intro" style="--d:0">
+            <svg class="badge-paw"><use href="#paw" /></svg>
+            Reddit's favorite gentleman
+          </p>
+          <h1 class="intro" style="--d:1">
+            <span class="hero-name">Solya The Cat</span>
+            <span class="hero-letters" aria-label="SOLYA">
+              <span style="--i:0">S</span><span style="--i:1">O</span><span style="--i:2">L</span><span style="--i:3">Y</span><span style="--i:4">A</span>
+            </span>
+          </h1>
+          <p class="hero-ticker intro" style="--d:2"><span>$SOLYA</span> on Solana</p>
+          <p class="hero-bio intro" style="--d:3">
+            Solya is winning hearts across Reddit as a distinguished gentleman—but his iconic pose looks unmistakably like <strong>DOGE</strong>.
+          </p>
+          <div class="hero-actions intro" style="--d:4">
+            <a href="https://pump.fun" data-pumpfun target="_blank" rel="noopener noreferrer" class="btn btn-gold">
+              <svg class="btn-paw"><use href="#paw" /></svg>
+              Buy $SOLYA
+            </a>
+            <a href="#story" class="btn btn-ghost">Meet Solya</a>
+          </div>
+        </div>
+
+        <div class="hero-stage intro" style="--d:2">
+          <div class="coin-tilt">
+            <div class="coin-ring" aria-hidden="true"></div>
+            <div class="coin-ring coin-ring--dash" aria-hidden="true"></div>
+            <div class="coin">
+              <img src="logo.png" alt="Solya The Cat coin" />
+              <span class="coin-shine" aria-hidden="true"></span>
+            </div>
+            <div class="orbit" aria-hidden="true">
+              <span class="mini-coin">S</span>
+            </div>
+            <div class="orbit orbit--slow" aria-hidden="true">
+              <span class="mini-coin mini-coin--sm">S</span>
+            </div>
+            <span class="sticker sticker-a">Gentleman?</span>
+            <span class="sticker sticker-b">…or DOGE?</span>
+          </div>
         </div>
       </div>
+
+      <a href="#story" class="scroll-cue" aria-label="Scroll to story">
+        <span></span>
+      </a>
     </section>
 
     <div class="marquee" aria-hidden="true">
       <div class="marquee-track">
-        <span>SUPER PRESIDENT</span><span>$TRUMP</span><span>RED</span><span>WHITE</span><span>BLUE</span><span>SOLANA</span><span>COMMUNITY</span>
-        <span>SUPER PRESIDENT</span><span>$TRUMP</span><span>RED</span><span>WHITE</span><span>BLUE</span><span>SOLANA</span><span>COMMUNITY</span>
+        <span>SOLYA THE CAT</span><i></i><span>$SOLYA</span><i></i><span>DISTINGUISHED GENTLEMAN</span><i></i><span>REDDIT</span><i></i><span>THAT DOGE POSE</span><i></i><span>SOLANA</span><i></i>
+        <span>SOLYA THE CAT</span><i></i><span>$SOLYA</span><i></i><span>DISTINGUISHED GENTLEMAN</span><i></i><span>REDDIT</span><i></i><span>THAT DOGE POSE</span><i></i><span>SOLANA</span><i></i>
       </div>
-    </div>
-
-    <div class="proof-bar" aria-label="Brand pillars">
-      <p><strong>Americana</strong> red, white, and blue</p>
-      <p><strong>Community</strong> built to participate</p>
-      <p><strong>Solana</strong> meme token culture</p>
     </div>
 
     <section class="section" id="story">
       <div class="container">
-        <header class="section-head">
-          <p class="section-index">01</p>
-          <div>
-            <p class="section-label">The brand</p>
-            <h2 class="section-title">Super President.<br />Fast memes.</h2>
-            <p class="section-lede tight">A recognizable mark, made for the speed of Solana.</p>
-          </div>
+        <header class="section-head" data-reveal>
+          <p class="section-label">01 · The story</p>
+          <h2 class="section-title">A gentleman.<br /><span>A familiar pose.</span></h2>
+          <p class="section-lede">Reddit fell for his manners. Everyone else noticed the pose.</p>
         </header>
-        <figure class="banner-frame">
-          <img src="banner.png" alt="Super President before a waving American flag at sunset" />
+
+        <figure class="banner-frame" data-reveal>
+          <img src="banner.png" alt="Solya The Cat lying on a golden blanket next to SOLYA coins" />
         </figure>
-        <article class="frame x-card">
-          <div class="frame-meta">
-            <span>x.com/realDonaldTrump</span>
-            <a href="https://x.com/realDonaldTrump/status/2101350559328416142" target="_blank" rel="noopener noreferrer">Open</a>
+
+        <div class="versus">
+          <article class="vs-card" data-reveal>
+            <p class="vs-tag">Reddit sees</p>
+            <h3>The distinguished gentleman</h3>
+            <p>Calm, composed, paws neatly crossed. Solya carries himself like a cat with excellent manners, and Reddit can't get enough.</p>
+          </article>
+          <div class="vs-mid" data-reveal aria-hidden="true">
+            <span>VS</span>
           </div>
-          <header class="channel-user">
-            <span class="x-mark" aria-hidden="true">𝕏</span>
-            <div>
-              <strong>Donald J. Trump</strong>
-              <span>@realDonaldTrump</span>
-            </div>
-          </header>
-          <div class="x-widget">
-            <iframe
-              class="x-frame"
-              src="https://platform.twitter.com/embed/Tweet.html?id=2101350559328416142&theme=dark&dnt=true"
-              title="Donald J. Trump on X"
-              loading="lazy"
-            ></iframe>
-          </div>
-        </article>
+          <article class="vs-card vs-card--doge" data-reveal>
+            <p class="vs-tag">Everyone else sees</p>
+            <h3>That iconic DOGE pose</h3>
+            <p>The angle, the look, the attitude. Look once and you can't unsee it. Solya's signature pose is unmistakably DOGE.</p>
+          </article>
+        </div>
       </div>
     </section>
 
     <section class="section about" id="about">
-      <div class="about-bleed">
-        <div class="about-visual">
-          <img src="logo.png" alt="Super President" class="about-face" />
+      <div class="container about-grid">
+        <div class="about-visual" data-reveal>
+          <div class="about-blob" aria-hidden="true"></div>
+          <img src="logo.png" alt="Solya The Cat" class="about-face" />
+          <svg class="stamp stamp-a" aria-hidden="true"><use href="#paw" /></svg>
+          <svg class="stamp stamp-b" aria-hidden="true"><use href="#paw" /></svg>
         </div>
         <div class="about-copy">
-          <p class="section-index">02</p>
-          <p class="section-label">The icon</p>
-          <h2 class="section-title">Meet Super President</h2>
-          <p class="section-text">
-            <strong>Super President</strong> wears the classic American palette — cape red, suit blue, and a gold belt — and puts it on Solana as <strong>$TRUMP</strong>.
+          <p class="section-label" data-reveal>02 · The profile</p>
+          <h2 class="section-title" data-reveal>Meet <span>Solya</span></h2>
+          <p class="section-text" data-reveal>
+            <strong>Solya The Cat</strong> is a ginger gentleman with impeccable posture, and he's now on Solana as <strong>$SOLYA</strong>.
           </p>
-          <p class="section-text">
-            The project is built around community participation, a brand you can spot instantly, and the playful culture of Solana meme tokens.
-          </p>
-          <ul class="lore-list">
-            <li><span>Name</span>Super President</li>
-            <li><span>Ticker</span>$TRUMP</li>
+          <ul class="profile-list" data-reveal>
+            <li><span>Name</span>Solya The Cat</li>
+            <li><span>Ticker</span>$SOLYA</li>
+            <li><span>Famous on</span>Reddit</li>
+            <li><span>Known as</span>A distinguished gentleman</li>
+            <li><span>Signature</span>The DOGE pose</li>
             <li><span>Chain</span>Solana</li>
-            <li><span>Colors</span>Red, white, and blue</li>
           </ul>
         </div>
       </div>
@@ -139,17 +172,14 @@
 
     <section class="section" id="contract">
       <div class="container">
-        <header class="section-head">
-          <p class="section-index">03</p>
-          <div>
-            <p class="section-label">The seal</p>
-            <h2 class="section-title">$TRUMP CA</h2>
-          </div>
+        <header class="section-head" data-reveal>
+          <p class="section-label">03 · Contract</p>
+          <h2 class="section-title">$SOLYA <span>CA</span></h2>
         </header>
-        <div class="ca-box">
+        <div class="ca-box" data-reveal>
           <span class="ca-kicker">Solana mint</span>
-          <code id="ca-display" class="ca-address">9rzRfWAFzjkV7HMm36M1ZSh7JUf4S8pw6UeZdPdLpump</code>
-          <button id="copy-ca" class="btn btn-line" type="button" title="Copy address">Copy</button>
+          <code id="ca-display" class="ca-address">TBA</code>
+          <button id="copy-ca" class="btn btn-ghost" type="button" title="Copy address">Copy</button>
         </div>
         <p id="copy-toast" class="copy-toast" role="status" aria-live="polite"></p>
       </div>
@@ -157,31 +187,28 @@
 
     <section class="section tokenomics" id="tokenomics">
       <div class="container">
-        <header class="section-head">
-          <p class="section-index">04</p>
-          <div>
-            <p class="section-label">The offering</p>
-            <h2 class="section-title">Tokenomics</h2>
-          </div>
+        <header class="section-head" data-reveal>
+          <p class="section-label">04 · Tokenomics</p>
+          <h2 class="section-title">Simple as a <span>nap</span></h2>
+          <p class="section-lede">Fair launch on pump.fun. No team bag. No tax. Just $SOLYA.</p>
         </header>
-        <p class="section-lede">Fair launch on pump.fun. No team bag. No tax. Just $TRUMP.</p>
         <div class="token-board">
-          <article>
+          <article data-reveal>
             <p class="token-value">100%</p>
             <h3>Community</h3>
             <p>Zero team allocation.</p>
           </article>
-          <article>
+          <article data-reveal>
             <p class="token-value">1B</p>
             <h3>Supply</h3>
-            <p>1,000,000,000 $TRUMP</p>
+            <p>1,000,000,000 $SOLYA</p>
           </article>
-          <article>
+          <article data-reveal>
             <p class="token-value">0%</p>
             <h3>Tax</h3>
             <p>Buy and sell. Nothing taken.</p>
           </article>
-          <article>
+          <article data-reveal>
             <p class="token-value">LP</p>
             <h3>pump.fun</h3>
             <p>Bonding curve, then Solana LP.</p>
@@ -192,38 +219,39 @@
 
     <section class="section buy" id="buy">
       <div class="container">
-        <header class="section-head">
-          <p class="section-index">05</p>
-          <div>
-            <p class="section-label">The move</p>
-            <h2 class="section-title">Get $TRUMP</h2>
-          </div>
+        <header class="section-head" data-reveal>
+          <p class="section-label">05 · How to buy</p>
+          <h2 class="section-title">Get <span>$SOLYA</span></h2>
         </header>
         <ol class="steps">
-          <li>
+          <li data-reveal>
             <span>01</span>
             <h3>Wallet</h3>
             <p>Install Phantom or any Solana wallet and fund it with SOL.</p>
           </li>
-          <li>
+          <li data-reveal>
             <span>02</span>
             <h3>pump.fun</h3>
-            <p>Open the official $TRUMP page and connect.</p>
+            <p>Open the official $SOLYA page and connect.</p>
           </li>
-          <li>
+          <li data-reveal>
             <span>03</span>
             <h3>Swap</h3>
-            <p>Buy $TRUMP. Match the CA on this site.</p>
+            <p>Buy $SOLYA. Match the CA on this site.</p>
           </li>
-          <li>
+          <li data-reveal>
             <span>04</span>
-            <h3>Rally</h3>
-            <p>Share the brand and join the community.</p>
+            <h3>Strike the pose</h3>
+            <p>Share Solya and join the community.</p>
           </li>
         </ol>
-        <div class="buy-cta">
-          <a href="https://pump.fun/coin/9rzRfWAFzjkV7HMm36M1ZSh7JUf4S8pw6UeZdPdLpump" data-pumpfun target="_blank" rel="noopener noreferrer" class="btn btn-blood btn-lg">Buy on pump.fun</a>
-          <a href="https://x.com/trumponsol_x" data-twitter target="_blank" rel="noopener noreferrer" class="btn btn-line btn-lg">X</a>
+        <div class="buy-cta" data-reveal>
+          <a href="https://pump.fun" data-pumpfun target="_blank" rel="noopener noreferrer" class="btn btn-gold btn-lg">
+            <svg class="btn-paw"><use href="#paw" /></svg>
+            Buy on pump.fun
+          </a>
+          <a href="#" data-twitter target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-lg">X</a>
+          <a href="#" data-telegram target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-lg">Telegram</a>
         </div>
       </div>
     </section>
@@ -233,14 +261,15 @@
     <div class="container footer-inner">
       <img src="logo.png" alt="" class="footer-logo" />
       <div>
-        <strong>Super President</strong>
-        <span>$TRUMP · Solana meme token</span>
+        <strong>Solya The Cat</strong>
+        <span>$SOLYA · Solana meme token</span>
       </div>
       <div class="footer-links">
-        <a href="https://x.com/trumponsol_x" data-twitter target="_blank" rel="noopener noreferrer">X</a>
+        <a href="#" data-twitter target="_blank" rel="noopener noreferrer">X</a>
+        <a href="#" data-telegram target="_blank" rel="noopener noreferrer">Telegram</a>
       </div>
       <p class="footer-disclaimer">
-        $TRUMP is a meme token with no intrinsic value or expectation of financial return. Not financial advice. DYOR.
+        $SOLYA is a meme token with no intrinsic value or expectation of financial return. Not financial advice. DYOR.
       </p>
     </div>
   </footer>
